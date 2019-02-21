@@ -2,6 +2,6 @@
 ## Auteur ##
 Flavio Sovilla étudiant CPNV
 ## Version ##
-0.1
+1.0
 ## Description ##
 Entraînement avec Git et push sur Github
