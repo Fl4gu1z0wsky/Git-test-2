@@ -16,11 +16,12 @@ int main()
 
 int factorial(int n)
 {
-    int prod = 1, i = VAL_INIT;
-
-    for(i = 2; i <= n; i++)
+    if(n > 1)
     {
-        prod *= i;
+        return n*factorial(n-1);
     }
-    return prod;
+    else
+    {
+        return 1;
+    }
 }
