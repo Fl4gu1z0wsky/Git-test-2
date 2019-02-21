@@ -1,3 +1,9 @@
+/*******************************
+* Auteur : Flavio Sovilla      *
+* Titre : Test Gestion Git     *
+* Date : 21.02.2019            *
+* Version : 1.0                *
+*******************************/
 #include <stdio.h>
 #include <stdlib.h>
 #define VAL_INIT -1
