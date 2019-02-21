@@ -8,12 +8,19 @@ int main()
     printf("Enter a number for factorial : ");
     scanf("%i", &n);
 
-    prod = 1;
-    for(i = 1; i <= n; i++)
-    {
-        prod *= i;
-    }
+    prod = factorial(n);
 
     printf("\nYour number in factorial gives : %i\n", prod);
     return 0;
+}
+
+int factorial(int n)
+{
+    int prod = 1, i = VAL_INIT;
+
+    for(i = 2; i <= n; i++)
+    {
+        prod *= i;
+    }
+    return prod;
 }
